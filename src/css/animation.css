@@ -1,0 +1,16 @@
+/* Animação de transição ao carregar a página */
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-appear {
+  animation-name: appear;
+  animation-duration: 700ms;
+  animation-fill-mode: backwards;
+}

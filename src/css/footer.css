@@ -1,0 +1,17 @@
+footer {
+  text-align: center;
+  margin: 30px auto 30px auto;
+  height: 30px;
+}
+
+footer p {
+  text-align: center;
+}
+
+#footer-title {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 30px;
+  margin: 20px 0 0;
+  color: white;
+}

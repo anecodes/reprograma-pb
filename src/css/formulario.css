@@ -1,0 +1,59 @@
+form {
+  width: 450px;
+  height: 330px;
+  display: block;
+  margin: 25px auto 50px;
+  padding-bottom: 40px;
+  font: 16px Roboto, Arial, Helvetica, sans-serif;
+  background: var(--purple);
+}
+
+form legend {
+  text-align: center;
+  color: white;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin: 20px auto;
+  max-width: 360px;
+  color: white;
+}
+
+form input {
+  display: block;
+  margin: 5px 0;
+  padding: 15px 5%;
+  border-radius: 5px;
+  width: 90%;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  margin: 10px auto;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background: none;
+  color: white;
+  font: bold 16px Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* Estilização do hover do botão e da section do formulário de cadastro */
+
+form button:hover {
+  transition-duration: 0.3s;
+  background-color: white;
+  color: var(--purple);
+  box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+#form-cadastro {
+  background-color: var(--purple);
+  width: 100%;
+  padding-top: 35px;
+  margin: 236px auto auto;
+}

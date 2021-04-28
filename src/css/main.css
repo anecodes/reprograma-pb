@@ -1,0 +1,38 @@
+h2 {
+  font-size: 33px;
+  color: var(--purple);
+}
+
+h3 {
+  font-size: 26px;
+}
+
+/* Configuração da posição do banner lateral */
+aside {
+  position: absolute;
+  left: 655px;
+  top: 170px;
+}
+
+/* Configuração do artigo sobre o programa */
+article {
+  width: 370px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 70px auto 150px 75px;
+}
+
+.titulo-artigo {
+  padding: 20px 0 20px 0;
+}
+
+.titulo-artigo-2 {
+  padding: 50px 0 10px 0;
+  font-size: 22px;
+}
+
+.paragrafo-artigo {
+  width: 290px;
+  text-align: left;
+}
