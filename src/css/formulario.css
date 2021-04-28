@@ -55,5 +55,5 @@ form button:hover {
   background-color: var(--purple);
   width: 100%;
   padding-top: 35px;
-  margin: 236px auto auto;
+  margin: 236px auto auto auto;
 }

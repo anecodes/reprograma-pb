@@ -20,7 +20,7 @@ article {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin: 70px auto 150px 75px;
+  margin: 70px auto 150px 125px;
 }
 
 .titulo-artigo {
