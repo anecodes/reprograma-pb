@@ -7,7 +7,7 @@ function validaContato() {
   let email = document.getElementById("email").value;
 
   /* Validação de formato do email com regex */
-  function validateEmail(email) {
+  function validaEmail(email) {
     var re = new RegExp(
       /^[A-Za-z0-9_\-\.]+@[A-Za-z0-9_\-\.]{2,}\.[A-Za-z0-9]{2,}(\.[A-Za-z0-9])?/
     );
@@ -19,7 +19,7 @@ function validaContato() {
     document.getElementById("username").focus();
     return;
   }
-  if (email == "" || !validateEmail(email)) {
+  if (email == "" || !validaEmail(email)) {
     alert("Informe seu email para saber das novidades! ;)");
     document.getElementById("email").focus();
     return false;
