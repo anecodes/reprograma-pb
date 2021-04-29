@@ -24,6 +24,7 @@ function validaContato() {
     document.getElementById("email").focus();
     return false;
   } else {
-    alert("Email cadastrado!");
+    alert("Formulário preenchido com os dados abaixo: \nNome: " + nome + "\nEmail: " + email);
   }
 }
+

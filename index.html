@@ -6,6 +6,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RePrograma PB</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/footer.css">
@@ -24,32 +25,38 @@
 
     <!-- Esse é o cabeçalho (header) principal -->
     <header>
-        <!-- <h1>Reprograma PB</h1> -->
         <a href="#">
-            <figure>
+            <figure class="logo">
                 <!-- Sempre que usar uma tag <img> procure adicionar um atributo alt com a descrição da imagem. Isso é bom para a acessibilidade da sua página -->
-                <img src="src/imagens/logo-reprograma.jpg" alt="Logo RePrograma" id="banner"/>
+                <img src="src/imagens/logo-reprograma.jpg" alt="Logo RePrograma"/>
             </figure>
         </a>
 
         <nav>
-            <ul>
+            <div id="menuToggle">
+                <input type="checkbox" class="hamburger-menu">
+
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
                 <li><a href="#">Sobre o RePrograma</a></li>
                 <li><a href="#">Vagas</a></li>
                 <li><a href="#">Edições anteriores</a></li>
             </ul>
+            </div>
         </nav>
     </header>
 
     <!-- Esse é o conteúdo principal da nossa página -->
     <main class="animate-appear">
 
-        <section>
+        <section class="prog-info">
             <!-- Artigo com informações sobre o programa -->
             <article>
-                <h2 class="titulo-artigo">O que é o RePrograma?</h2>
-                <p class="paragrafo-artigo">O ReProgama PB é o estágio em Tecnologia do Paraná Banco exclusivo para mulheres.</p>
-                <h2 class="titulo-artigo-2">Para quem é feito esse programa?</h2>
+                <h1>O que é o RePrograma?</h1>
+                <p class="paragrafo-artigo">O RePrograma PB é o estágio em Tecnologia do Paraná Banco exclusivo para mulheres.</p>
+                <h2 class="titulo-artigo">Para quem é feito esse programa?</h2> 
                 <p class="paragrafo-artigo">Procuramos pessoas que se identifiquem com a nossa cultura e se já não estão apaixonadas pelo
                     sorriso, que estejam dispostas a sonhar esse sonho com a gente.</p>
             </article>
@@ -64,12 +71,12 @@
         </section>
 
         <!-- Id inserida no elemento span para estilizar apenas o h3 do footer -->
-        <section id="form-cadastro">
-            <span id="footer-title">
+        <section class="form-cadastro">
+            <span class="footer-title">
                 <h3>Fique por dentro das novidades</h3>
             </span>
             <!-- Formulário de cadastro -->
-            <form>
+            <form id="formulario">
                 <fieldset>
                     <legend>
                         Cadastre-se para receber informações do RePrograma no seu e-mail e não perder as próximas

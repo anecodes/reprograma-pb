@@ -7,27 +7,30 @@ h3 {
   font-size: 26px;
 }
 
+.prog-info {
+  max-width: 1170px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
 /* Configuração da posição do banner lateral */
-aside {
-  position: absolute;
-  left: 655px;
-  top: 170px;
+.prog-info aside {
+  max-width: 520px;
+  padding: 40px 0 0 0;
 }
 
 /* Configuração do artigo sobre o programa */
-article {
-  width: 370px;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  margin: 70px auto 150px 125px;
+.prog-info article {
+  max-width: 470px;
+  padding: 30px 50px 0 0;
+}
+
+.prog-info h1 {
+  color: var(--purple);
 }
 
 .titulo-artigo {
-  padding: 20px 0 20px 0;
-}
-
-.titulo-artigo-2 {
   padding: 50px 0 10px 0;
   font-size: 22px;
 }
@@ -35,4 +38,37 @@ article {
 .paragrafo-artigo {
   width: 290px;
   text-align: left;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .prog-info {
+    display: block;
+    padding: 0 20px;
+  }
+
+  .prog-info p {
+    font-size: 14px;
+  }
+
+  .prog-info img {
+    max-width: 400px;
+    width: 100%;
+  }
 }
