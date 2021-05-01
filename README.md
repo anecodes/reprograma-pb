@@ -10,4 +10,4 @@ Projeto desenvolvido durante a semana do bootcamp RePrograma PB, na trilha de fr
 - Figma
 
 ### © Copyright Paraná Banco 2021
-### Desenvolvido por Juliane de L. Pires
+#### Desenvolvido por Juliane de L. Pires
